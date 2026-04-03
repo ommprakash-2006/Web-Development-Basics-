@@ -1,0 +1,29 @@
+<!-- Write a JavaScript program that converts the text to upper case.  -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Uppercase Converter</title>
+</head>
+
+<body>
+
+<h3>Convert Text to Uppercase</h3>
+
+<input type="text" id="text">
+<button onclick="convert()">Convert</button>
+
+<p id="result"></p>
+
+<script>
+function convert() {
+    let str = document.getElementById("text").value;
+    let upper = str.toUpperCase();
+
+    document.getElementById("result").innerHTML = upper;
+}
+</script>
+
+</body>
+</html>
