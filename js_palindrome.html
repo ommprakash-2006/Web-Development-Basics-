@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Palindrome Check</title>
+</head>
+
+<body>
+
+<h3>Palindrome Checker</h3>
+
+<input type="text" id="text">
+<button onclick="checkPalindrome()">Check</button>
+
+<p id="result"></p>
+
+<script>
+function checkPalindrome() {
+    let str = document.getElementById("text").value;
+    let rev = "";
+
+    for (let i = str.length - 1; i >= 0; i--) {
+        rev = rev + str[i];
+    }
+
+    if (str == rev) {
+        document.getElementById("result").innerHTML = "Palindrome";
+    } else {
+        document.getElementById("result").innerHTML = "Not Palindrome";
+    }
+}
+</script>
+
+</body>
+</html>
