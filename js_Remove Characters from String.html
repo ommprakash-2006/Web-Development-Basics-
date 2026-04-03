@@ -1,0 +1,32 @@
+<!-- Write a JavaScript function to remove a specified number of characters from a string. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Remove Characters</title>
+</head>
+
+<body>
+
+<h3>Remove Characters from String</h3>
+
+<input type="text" id="text" placeholder="Enter text">
+<input type="number" id="num" placeholder="Characters to remove">
+<button onclick="removeChars()">Remove</button>
+
+<p id="result"></p>
+
+<script>
+function removeChars() {
+    let str = document.getElementById("text").value;
+    let n = document.getElementById("num").value;
+
+    let newStr = str.slice(0, str.length - n);
+
+    document.getElementById("result").innerHTML = newStr;
+}
+</script>
+
+</body>
+</html>
