@@ -1,0 +1,26 @@
+<!-- Write a JavaScript program that displays the position of the first occurrence of "World" in the variable txt -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Find Position</title>
+</head>
+
+<body>
+
+<h3>Find Position of "World"</h3>
+
+<p id="result"></p>
+
+<script>
+let txt = "Hello World, Welcome to the World of JavaScript";
+
+let position = txt.indexOf("World");
+
+document.getElementById("result").innerHTML = 
+    "Position of first 'World' is: " + position;
+</script>
+
+</body>
+</html>
