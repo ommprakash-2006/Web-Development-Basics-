@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Factorial</title>
+</head>
+<body>
+  <h3>Factorial</h3>
+  <input type="number" id="num" placeholder="Enter a number">
+  <button onclick="fact()">Find</button>
+
+  <p id="result"></p>
+
+<script>
+function fact() {
+    let n = document.getElementById("num").value;
+    let f = 1;
+
+    for (let i = 1; i <= n; i++) {
+        f = f * i;
+    }
+
+    document.getElementById("result").innerHTML = f;
+}
+</script>
+
+</body>
+</html>
