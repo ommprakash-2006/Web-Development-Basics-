@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="runAll()">Run</button>
+    <script>
+        function runAll(){
+            todaysDate();
+            alertName();
+            calculateSum();
+        }
+        function todaysDate(){
+            let today = new Date();
+            alert(today.toDateString());
+        }
+        function alertName(){
+            let nm = prompt("enter your name");
+            alert("Hello " + nm);
+        }
+        function calculateSum(){
+            let n1 = prompt("enter number 1:");
+            let n2 = prompt("enter number 2:");
+            let sum = Number(n1) + Number(n2);
+            alert("The sum is " + sum);
+        }
+    </script>
+</body>
+</html>
