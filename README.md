@@ -25,16 +25,7 @@ It represents my learning journey, where I practice concepts, solve assignment q
 <hr>
 🛠️ <b>Tools Used</b>
 <br><br>
-💻 HTML5 <br>
-🎨 CSS3 <br>
-🧑‍💻 VS Code <br>
-<hr>
-📈 <b>Future Improvements</b>
-<br><br>
--Add JavaScript projects <br>
--Build responsive designs <br>
--Create mini projects <br>
--Improve UI/UX <br>
+<img src="https://skillicons.dev/icons?i=html,css,js,vscode" />
 <hr>
 🤝 <b>Contributions</b>
 <br><br>
