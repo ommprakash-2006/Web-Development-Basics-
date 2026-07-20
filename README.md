@@ -36,4 +36,4 @@ This is a personal learning repository, but feedback and suggestions are always 
 GitHub: https://github.com/ommprakash-2006 <br>
 LinkedIn: www.linkedin.com/in/omm-prakash-sahoo-b12b3336b <br>
 <br><br><br>
-<b>Author: </b><i>Omm Prakash Sahoo</i> <br>
+<b>Creator: </b><i>Omm Prakash Sahoo</i> <br>
